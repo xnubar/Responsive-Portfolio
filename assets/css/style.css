@@ -1,0 +1,114 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: rgb(240, 237, 237);
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 10px 125px;
+}
+.connect-me .connect-me-header {
+    text-align: center;
+}
+
+.connect-me .connect-me-header .connect-me-header-title {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:24px;
+    font-weight: bold;
+}
+
+.connect-me .connect-me-imgs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.connect-me .connect-me-imgs-container img {
+    width: 40px;
+    height: 40px;
+}
+
+header, main, footer {
+    flex-shrink: 0;
+}
+.header {
+    height: 70px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.header .main-nav {
+    display: flex;
+    padding-right: 120px;
+}
+.header .main-nav li:first-child {
+   margin-right: auto;
+}
+.header .main-nav a {
+    margin: 10px 0px; 
+    color: rgb(145, 143, 143);
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+.header .main-nav .user {
+  background: #4aaaa5;
+  box-sizing: border-box;
+  text-align: center;
+  width: 150px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 20px;
+  text-decoration: none;
+  height: 70px;
+  display: inline-block;
+  padding: 20px 0px;
+  margin: 0 auto 0 100px;
+}
+
+.header-title {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:28px;
+    font-weight: bold;
+}
+
+.header-border {
+    border: 1px solid #ccc;
+    margin-bottom:10px;
+}
+
+.connect-me {
+    background: #fff;
+    flex: 1 0 20%;
+    border: 1px solid #ccc;
+    padding: 25px;
+    height: 90px;
+
+}
+
+
+footer {
+    flex-basis: 100%;
+    background: #666 !important;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 35px 0px; 
+    color: #fff;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+}
